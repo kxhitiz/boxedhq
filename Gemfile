@@ -44,6 +44,9 @@ group :development, :test do
 
   # TDD
   gem 'rspec-rails', '~> 3.0'
+  gem 'capybara', '~> 2.4.4'
+  gem 'database_cleaner'
   gem 'factory_girl_rails'
+  gem 'selenium-webdriver'
 end
 
