@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  namespace :api do
+    get 'teams/index'
+  end
+
   resources :boxes
 
   get 'home/index'
